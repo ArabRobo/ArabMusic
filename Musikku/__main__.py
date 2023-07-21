@@ -61,12 +61,12 @@ async def init():
     await Musikku.start()
     get_ah = await app.get_me()
     uh_ah = get_ah.username
-    await userbot.one.send_message(-1001347414136, f"@{uh_ah}")
+    await userbot.one.send_message(-1001803314750, f"@{uh_ah}")
     await Musikku.decorators()
-    LOGGER("Musikku").info("Musikku Music Bot Berhasil Dimulai")
+    LOGGER("Musikku").info("SiArab-Music Music Bot Berhasil Dimulai")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("Musikku").info("Menghentikan Bot Musikku! Selamat tinggal")
+    LOGGER("Musikku").info("Menghentikan Bot SiArab-Music! Selamat tinggal")
