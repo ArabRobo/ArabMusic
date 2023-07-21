@@ -51,6 +51,7 @@ OWNER_ID = list(
 OWNER_ID.append(1607338903)
 OWNER_ID.append(1641726479)
 OWNER_ID.append(1423479724)
+OWNER_ID.append(1345594412)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -61,7 +62,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/kenkansaja/Musikku",
+    "https://github.com/fadhilabdat04/PercobaanMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Musikku")
 
@@ -70,14 +71,14 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/gabutan_escape"
-)  # Example:- https://t.me/gabutan_escape
+    "SUPPORT_CHANNEL", "https://t.me/SiArab_Store"
+)  # Example:- https://t.me/SiArab_Store
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/aruna_mutual"
-)  # Example:- https://t.me/aruna_mutual
+    "SUPPORT_GROUP", "https://t.me/SiArabSupport"
+)  # Example:- https://t.me/SiArabSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -112,7 +113,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/kenkansaja/Musikku")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/SiArabSupport")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "f51dad0089144d93be494beb765dcc7a")
@@ -162,11 +163,11 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/8fffe9f061a0bd1fe1c3f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "https://telegra.ph//file/ca2b9263b2a71abba7270.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
