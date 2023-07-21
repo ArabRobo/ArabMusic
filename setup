@@ -1,5 +1,5 @@
 #!/bin/bash
-### Musikku Bot Installer
+### SiArab-Music Bot Installer
 
 pprint (){
 	cred='\033[0;31m'
@@ -90,7 +90,7 @@ installation(){
 }
 
 clear
-pprint "Selamat datang di Penginstal Pengaturan Musikku Bot\n\n"
+pprint "Selamat datang di Penginstal Pengaturan SiArab-Music Bot\n\n"
 pprint "Jika Anda melihat kesalahan selama Proses Instalasi, Silakan merujuk ke file-file ini untuk log:"
 pprint "\nUntuk kesalahan node js , Periksa nodelog.txt"
 pprint "\nUntuk kesalahan paket pypi, Periksa pypilog.txt"
@@ -103,7 +103,7 @@ packages
 node
 repo
 installation
-pprint "\n\n\n\n\nMusikku Bot Installation selesai!" "cgreen"
+pprint "\n\n\n\n\nSiArab-Music Bot Installation selesai!" "cgreen"
 sleep 4
 clear
 
@@ -137,6 +137,6 @@ SUPPORT_CHANNEL=$channel
 MUST_JOIN=$join
 OWNER_ID=$ownid""" > .env
 clear
-pprint "\n\n\nVars Anda telah berhasil disimpan!, Terima kasih telah menggunakan Musikku Installer, sekarang Anda dapat melanjutkan dengan memulai bot dengan bash start!"
+pprint "\n\n\nVars Anda telah berhasil disimpan!, Terima kasih telah menggunakan SiArab-Music Installer, sekarang Anda dapat melanjutkan dengan memulai bot dengan bash start!"
 pprint "\n\n\nIngin lebih banyak vars?"
 pprint "\nCheckout config.py dan readme.md di dalam folder config untuk vars tambahan. Anda dapat mengubah semua gambar , Thumbs, mode dan semuanya dari vars. Lihat ke arah mereka\n\n"
