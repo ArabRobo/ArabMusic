@@ -8,7 +8,7 @@
 # All rights reserved.
 
 
-HELP_1 = """✅**<u>Perintah Admin:</u>**
+HELP_1 = """↻**<u>Perintah Admin:</u>**
 
 **c** adalah singkatan dari pemutaran saluran.
 
@@ -24,11 +24,11 @@ HELP_1 = """✅**<u>Perintah Admin:</u>**
 /skip atau /cskip [Nomor(contoh: 3)]
     - Melompati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
 
-✅<u>**Pemutaran Putaran:*</u>
+↻<u>**Pemutaran Putaran:*</u>
 /loop atau /cloop [aktifkan/nonaktifkan] atau [Angka antara 1-10]
     - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default untuk 10 kali.
 
-✅<u>**Pengguna Auth:*</u>
+↻<u>**Pengguna Auth:*</u>
 Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
 
 /auth [Nama Pengguna] - Tambahkan pengguna ke DAFTAR AUTH grup.
@@ -36,7 +36,7 @@ Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
 /authusers - Periksa DAFTAR AUTH grup."""
 
 
-HELP_2 = """✅<u>**Perintah Mainkan:**</u>
+HELP_2 = """↻<u>**Perintah Mainkan:**</u>
 
 **cplay** atau **cstream **singkatan dari channel play.
 **vplay** adalah singkatan dari pemutaran video.
@@ -54,7 +54,7 @@ HELP_2 = """✅<u>**Perintah Mainkan:**</u>
 /play - Mulai mainkan Daftar Putar Tersimpan Anda dari Server."""
 
 
-HELP_3 = """✅<u>**Perintah Bot:**</u>
+HELP_3 = """↻<u>**Perintah Bot:**</u>
 
 /stats - Dapatkan Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat, dll.
 
@@ -67,7 +67,7 @@ HELP_3 = """✅<u>**Perintah Bot:**</u>
 **c** adalah singkatan dari pemutaran saluran.
 /queue atau /cqueue- Periksa Daftar Antrian Musik."""
 
-HELP_4 = """✅<u>**Perintah Ekstra:**</u>
+HELP_4 = """↻<u>**Perintah Ekstra:**</u>
 /start - Mulai Bot Musik.
 /help - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
 /ping- Ping Bot dan periksa Ram, Cpu dll statistik Bot.
