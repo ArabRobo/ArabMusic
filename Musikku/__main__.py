@@ -31,7 +31,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("Musikku").error(
+        LOGGER("Arab-Robot").error(
             "Tidak Ada Asisten Klien yang Ditentukan Vars!.. Proses Keluar."
         )
         return
@@ -39,7 +39,7 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("MusikkuMusic").warning(
+        LOGGER("Arab-Robot").warning(
             "Tidak ada Spotify Vars yang ditentukan. Bot Anda tidak akan dapat memainkan kueri spotify."
         )
     try:
@@ -63,10 +63,10 @@ async def init():
     uh_ah = get_ah.username
     await userbot.one.send_message(-1001803314750, f"@{uh_ah}")
     await Musikku.decorators()
-    LOGGER("Musikku").info("SiArab-Music Music Bot Berhasil Dimulai")
+    LOGGER("Arab-Robot").info("SiArab-Music Music Bot Berhasil Dimulai")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("Musikku").info("Menghentikan Bot SiArab-Music! Selamat tinggal")
+    LOGGER("Arab-Robot").info("Menghentikan Bot SiArab-Music! Selamat tinggal")
