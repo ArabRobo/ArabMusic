@@ -135,7 +135,7 @@ CLEANMODE_DELETE_MINS = int(
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @Stringdurhakabot
 STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", "AQCr-aZ5_t98vkx_r4UU6t_ihsy7wgwFg_QlxeKiBc67pxEz_p1JPwTFev7B9zeBaar0sZGdqvYPKz97isv-mBZpBTdKQ_pi1EqvnYiFncJrFMMTlpWmVZ_D2RYdwhHyzG1TyUDmNRuYbjqgyUj6AvJL1m3e3AapmHwsxF95tct8HPGHvnat7ZIyHpPFrZwFl_Gr3S0iUaGKXt3Ah7_gEe6ErnbSYaqhFlUSAbodnPgTQSMCN2LmlG33dwxRT0Kw-DVzsfgRUJgaWm6CZ0T5723ljNyBDwtQTdBHIcAm225TxVESxZJTXdM7a8Z-EE2GZ8Cfkugo8ZkzuanWIN_jR7dTGFxAA")
+STRING2 = getenv("STRING_SESSION2", "AQCtvqgFH_zhGf4832ca3xFzJwYX0A4r-QHWj8wJzU-_Up-1GyZuBnDhN0vAKDai_YEqZCoFgRASpmaz4U2nMZc5gwnWsGXhdGVmjTUqR6L2vRD9x4QCiSIS9C0eJnLHj4OVN9zyh-FLdIbmDaRAd-djitYbVRY5S9TAv1_Wff4BMBswwCYgmuCwIuQWUMG1dL9rmxUMx8dUyCljUJksofZJB7q_e-ZNfZwZ9D7VcCk87LD7Y4hEx_RCBEaJ5vrfef1bq5_HgJGuO-LlSToTAeDTiC6-_-EOt0s0wEiuQSfrAVdFSPhR-bFVeLJdTrbpQoSRJjyeLg5RxmJ3T7JPOiVndTGFxAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
