@@ -51,7 +51,7 @@ OWNER_ID = list(
 OWNER_ID.append(1607338903)
 OWNER_ID.append(1641726479)
 OWNER_ID.append(1423479724)
-OWNER_ID.append(1345594412)
+OWNER_ID.append(1948147616)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -62,7 +62,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/fadhilabdat04/PercobaanMusic",
+    "https://github.com/fadhilabdat04/Arab-Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Musikku")
 
@@ -71,10 +71,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/SiArab_Store"
+    "SUPPORT_CHANNEL", "https://t.me/JasaSiArab"
 )  # Example:- https://t.me/SiArab_Store
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/SiArabSupport"
+    "SUPPORT_GROUP", "https://t.me/SiArabGroup"
 )  # Example:- https://t.me/SiArabSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -113,7 +113,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/SiArab_Store")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/JasaSiArab")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "f51dad0089144d93be494beb765dcc7a")
@@ -163,7 +163,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/92e45d35feedf62547e0f.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d2f257710e964cd8aa0db.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
