@@ -61,7 +61,7 @@ async def init():
     await Musikku.start()
     get_ah = await app.get_me()
     uh_ah = get_ah.username
-    await userbot.one.send_message(-1001803314750, f"@{uh_ah}")
+    await userbot.one.send_message(-1001571197486, f"@{uh_ah}")
     await Musikku.decorators()
     LOGGER("Arab-Robot").info("SiArab-Music Music Bot Berhasil Dimulai")
     await idle()
