@@ -113,7 +113,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/StringrabRobot")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/ArabXRobot")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "f51dad0089144d93be494beb765dcc7a")
@@ -135,7 +135,7 @@ CLEANMODE_DELETE_MINS = int(
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @Stringdurhakabot
 STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", "AQCtvqgFH_zhGf4832ca3xFzJwYX0A4r-QHWj8wJzU-_Up-1GyZuBnDhN0vAKDai_YEqZCoFgRASpmaz4U2nMZc5gwnWsGXhdGVmjTUqR6L2vRD9x4QCiSIS9C0eJnLHj4OVN9zyh-FLdIbmDaRAd-djitYbVRY5S9TAv1_Wff4BMBswwCYgmuCwIuQWUMG1dL9rmxUMx8dUyCljUJksofZJB7q_e-ZNfZwZ9D7VcCk87LD7Y4hEx_RCBEaJ5vrfef1bq5_HgJGuO-LlSToTAeDTiC6-_-EOt0s0wEiuQSfrAVdFSPhR-bFVeLJdTrbpQoSRJjyeLg5RxmJ3T7JPOiVndTGFxAA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -163,7 +163,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d2f257710e964cd8aa0db.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/5129b55895312901edf09.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
