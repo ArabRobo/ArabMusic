@@ -85,7 +85,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "600")
 )  # Remember to give value in Seconds
 
-MUST_JOIN = getenv("MUST_JOIN") or int(getenv("MUST_JOIN"))
+MUST_JOIN = getenv("MUST_JOIN", True) or int(getenv("MUST_JOIN", "JasaSiArab"))
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
