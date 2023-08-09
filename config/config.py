@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "22058017"))
 API_HASH = getenv("API_HASH", "27183090af2841b8795a9e891fae226c")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6515197149:AAEicDMoVIsS5KfEPpIorYEsLyuuxX55xkk")
+BOT_TOKEN = getenv("BOT_TOKEN", "6336803824:AAFDENqUePV9JZCdtUZjDklzJzXkLrmh374")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Arab01:fadhil123@cluster0.ul5qaif.mongodb.net/")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001795374467"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001659318028"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "SI ARAB MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TWINS")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1948147616").split())
+    map(int, getenv("OWNER_ID", "5516352131").split())
 )  # Input type must be interger
 
 # JANGAN HAPUS YA JANCOK KALAU FORK ATAU CLONE
@@ -134,7 +134,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @Stringdurhakabot
-STRING1 = getenv("STRING_SESSION", "AQB0egzoY9YzNHaJEcH8ZMc2V4Dv2xAE9iw1FijXX_De6tO9ThlLonqixUyNlxOJ6WYUcqcJ6ELoonS-qqwdE-OrfgarUFhQIEoNHFyWsWlyejdTn7WPx-hisOuhzW9YyJyLwvULkW-Zv-VoqI8MBunT21_p5YS5GgsHS3rnNQgc2xxJ11BKGoxQx3x-lsDXsC-6HXeUnjpIySzQ4xLk5yfeMnXG-XcaQMfBdoPLoj-Dpqc2Jvk2W952pVWSL2SYYXU3ecGaECS36Ss-ralZHDECxsWfzvsrWYgJTYi4u8Yh5ubmBCv4xgodUKMjrvR-ZLW5g108b1hcDfGtzjBJDQQ3AAAAAHUxhcQA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
