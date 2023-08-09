@@ -85,7 +85,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "600")
 )  # Remember to give value in Seconds
 
-MUST_JOIN = getenv("MUST_JOIN") or int(getenv("MUST_JOIN", "JasaSiArab"))
+MUST_JOIN = getenv("MUST_JOIN") or int(getenv("MUST_JOIN",))
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
@@ -134,7 +134,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @Stringdurhakabot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQB0egzoY9YzNHaJEcH8ZMc2V4Dv2xAE9iw1FijXX_De6tO9ThlLonqixUyNlxOJ6WYUcqcJ6ELoonS-qqwdE-OrfgarUFhQIEoNHFyWsWlyejdTn7WPx-hisOuhzW9YyJyLwvULkW-Zv-VoqI8MBunT21_p5YS5GgsHS3rnNQgc2xxJ11BKGoxQx3x-lsDXsC-6HXeUnjpIySzQ4xLk5yfeMnXG-XcaQMfBdoPLoj-Dpqc2Jvk2W952pVWSL2SYYXU3ecGaECS36Ss-ralZHDECxsWfzvsrWYgJTYi4u8Yh5ubmBCv4xgodUKMjrvR-ZLW5g108b1hcDfGtzjBJDQQ3AAAAAHUxhcQA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
