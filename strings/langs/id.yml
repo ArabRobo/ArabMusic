@@ -78,7 +78,7 @@ admin_34 : "Gagal mencari seek saat ini."
 
 # Awal
 start_1 : "Terima kasih telah menerima saya di {0}.\n{1} masih hidup.\n\nUntuk bantuan atau bantuan apa pun, periksa grup dan saluran dukungan kami."
-start_2 : "Hello Nge, Selamat Datang Di {0}.\n\n{0} adalah bot Music Plus TagAll Gratis Buat Group lu pada.\n\n✅ Bantu Support & Donasinya ya\n\n✅ Powered by @Urrhiroo2."
+start_2 : "Hello Nge, Selamat Datang Di {0}.\n\n{0} adalah bot Music Plus Manage Gratis Buat Group lu pada.\n\n✅ Bantu Support & Donasinya ya\n\n✅ Powered by @Dhilnihnge."
 start_3 : "Selamat datang di {0}\n\nSaya tidak memerlukan **izin admin** untuk bekerja (sampai diminta).\n\nNama Pengguna Asisten:- @{1}\nID Asisten:- {2} "
 start_4 : "Pemilik {0}[{1}] baru saja bergabung dengan obrolan Anda."
 start_5 : "Anggota Pengguna Sudo {0}[{1}] baru saja bergabung dengan obrolan Anda."
@@ -251,10 +251,10 @@ L_B_1 : "🚀 Periska Lyrics"
 # Awal
 S_B_1 : "⊜ Perintah"
 S_B_2 : "☒ Pengaturan"
-S_B_3 : "✎ Group"
-S_B_4 : "✎ Channel"
+S_B_3 : "Group Support"
+S_B_4 : "Store Si Arab"
 S_B_5 : "♛ Tambahin ke group ampas lu ♛"
-S_B_6 : "⚡️ Bot Ngambil String ⚡️"
+S_B_6 : "⚡️ Bot Ngambil String"
 S_B_7 : "♛  Owner Bot"
 S_B_8 : "✎ Menu Perintah"
 
