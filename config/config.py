@@ -110,7 +110,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/ArabXRobot")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/StringrabRobot")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "f51dad0089144d93be494beb765dcc7a")
@@ -160,7 +160,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/f1db363e52988cdb2c6e0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d2f257710e964cd8aa0db.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -174,12 +174,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Global.jpeg",
+    "https://telegra.ph//file/8cf0cfda6be179012d118.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://telegra.ph//file/8a948c770af78eb0bcc89.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -194,7 +194,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "assets/Stream.jpeg",
+    "https://telegra.ph//file/90fe6c1092932422d5181.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
