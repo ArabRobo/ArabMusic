@@ -82,7 +82,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "600")
 )  # Remember to give value in Seconds
 
-MUST_JOIN = getenv("MUST_JOIN", False) or int(getenv("MUST_JOIN"))
+MUST_JOIN = getenv("MUST_JOIN", None) or int(getenv("MUST_JOIN"))
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
@@ -160,7 +160,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d2f257710e964cd8aa0db.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/34e3024d0b9b39050e890.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
