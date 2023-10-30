@@ -240,8 +240,8 @@ stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ *
 # Tombol Sebaris
 
 #Tombol Umum
-CLOSE_BUTTON : "⇄ Tutup"
-CLOSEMENU_BUTTON : "⇄ Tutup Menu"
+CLOSE_BUTTON : "❌ TUTUP ❌"
+CLOSEMENU_BUTTON : "❌ Tutup Menu ❌"
 BACK_BUTTON : "◁ Kembali"
 UNBAN_BUTTON : "↺ Unban Asisten"
 
@@ -249,14 +249,14 @@ UNBAN_BUTTON : "↺ Unban Asisten"
 L_B_1 : "🚀 Periska Lyrics"
 
 # Awal
-S_B_1 : "⊜ Perintah"
-S_B_2 : "☒ Pengaturan"
-S_B_3 : "Group Support"
-S_B_4 : "Channel"
-S_B_5 : "♛ Tambahin ke group ampas lu ♛"
-S_B_6 : "⚡️ Bot Ngambil String"
-S_B_7 : "♛  Owner Bot"
-S_B_8 : "✎ Menu Perintah"
+S_B_1 : "🔎 Perintah 🔍"
+S_B_2 : "⚙️ Pengaturan ⚙️"
+S_B_3 : "⚡️ Group Support ⚡️"
+S_B_4 : "⚡️ Channel ⚡️"
+S_B_5 : "⛔️ Tambahin ke group ampas lu ⛔️"
+S_B_6 : "⚡️ Bot String ⚡️"
+S_B_7 : "👑  Owner Bot 👑"
+S_B_8 : "Menu Perintah ❓"
 
 #Membantu
 H_B_1 : "Perintah Admin"
