@@ -68,7 +68,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/JasaSiArab"
+    "SUPPORT_CHANNEL", "https://t.me/Arabc0de"
 )  # Example:- https://t.me/SiArab_Store
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/SiArabGroup"
@@ -82,7 +82,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "600")
 )  # Remember to give value in Seconds
 
-MUST_JOIN = getenv("MUST_JOIN", True) or int(getenv("MUST_JOIN", "JasaSiArab"))
+MUST_JOIN = getenv("MUST_JOIN", False) or int(getenv("MUST_JOIN"))
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
