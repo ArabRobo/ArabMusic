@@ -134,7 +134,6 @@ MUSIC_BOT_NAME=$mbt
 STRING_SESSION=$string_session
 SUPPORT_GROUP=$group
 SUPPORT_CHANNEL=$channel
-MUST_JOIN=$join
 OWNER_ID=$ownid""" > .env
 clear
 pprint "\n\n\nVars Anda telah berhasil disimpan!, Terima kasih telah menggunakan SiArab-Music Installer, sekarang Anda dapat melanjutkan dengan memulai bot dengan bash start!"
